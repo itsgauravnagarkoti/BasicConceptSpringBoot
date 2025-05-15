@@ -10,7 +10,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.4.5</version>
-    <type>pom</type>
+   
 </parent>
 
   <dependencies>
@@ -20,4 +20,16 @@
     <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
   </dependencies>
+ 
+  <build>
+	<plugins>
+		<plugin>
+			<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin -->
+
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+	</plugins>
+  </build>
+  
 </project>
