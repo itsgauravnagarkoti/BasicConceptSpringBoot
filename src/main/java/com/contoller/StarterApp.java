@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
 //@EnableAutoConfiguration
 //@ComponentScan /// scaning all contollers 
 @SpringBootApplication
-@PropertySource("/Propfolder/application.properties")
+@PropertySource("/Propfolder/application.properties") // if folder name is config then we ddn't  need to add the @PropertySource  Annotation 
 public class StarterApp {
 	
 	public static void main(String[] args) {
