@@ -1,0 +1,8 @@
+server:
+  port: 8989
+  
+myApp:
+  name: Spring Boot Application
+  version: 1.0.0
+  description: Test  
+  

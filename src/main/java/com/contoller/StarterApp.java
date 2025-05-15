@@ -11,11 +11,11 @@ import org.springframework.context.annotation.PropertySource;
 //@EnableAutoConfiguration
 //@ComponentScan /// scaning all contollers 
 @SpringBootApplication
-@PropertySource("/Propfolder/application.properties") // if folder name is config then we ddn't  need to add the @PropertySource  Annotation 
+//@PropertySource("/Propfolder/application.properties") // if folder name is config then we ddn't  need to add the @PropertySource  Annotation 
 public class StarterApp {
 	
 	public static void main(String[] args) {
-		
+		// https://www.javainuse.com/app2yaml
 		// short form
 		
 		ConfigurableApplicationContext config = SpringApplication.run(StarterApp.class, args);
